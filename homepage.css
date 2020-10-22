@@ -1,0 +1,239 @@
+body {
+  background-color: antiquewhite; 
+  color: #221811;
+  font-family: Verdana, Arial, sans-serif; 
+  background-image: url("background.gif");
+}
+
+header {
+  background-color: lightblue; 
+  /*text-align: center*/
+  height: 150px;
+ /* background-image: url("eshu.jpg");*/
+  background-repeat:no-repeat;
+ padding-top: 40px;
+}
+
+#logo {
+     /*border-radius: 50%;*/
+    float: left;
+    height: 90px;
+    width: 110px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+}
+
+h1 {
+   /* line-height: 200%;*/
+   padding-top: 60px;
+   padding-left: 50px;
+   font-size: 3em;
+    text-align: center;
+    display: inline;
+}
+
+
+nav {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-top: 10px;
+    padding-left: 10px;
+   float: left;
+   width: 200px;
+    position: sticky;
+    top: 0;
+}
+/* unvisited link*/
+nav a:link {
+    color: black;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    color: #CC9933;
+}
+
+nav ul {
+    padding-left: 0px;
+    list-style: none;
+    margin: 10px 0;
+}
+
+
+   li{
+margin: 15px 0;
+}
+
+
+main {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 2em;
+    margin-left: 200px;
+    display: block;
+    background-color: #FBE8A6;
+}
+
+main h2,p,ul,dl {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+h3 {
+    padding-left: 20px;
+}
+
+.card {
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80%;
+  background-color: lightskyblue;
+  padding-left: 25px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+
+/*#desktop {
+    display: inline;
+}*/
+
+
+footer {
+  background-color: lightblue; 
+  font-size: .80em;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 10px;
+  border-top: 2px;
+  border-top-style: solid;
+  border-top-color: #221811;
+      
+}
+
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FEF6C2;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 5px 10px #888888;
+    background-color: lightsalmon;
+}
+
+ a:link {
+  text-decoration: none;
+}
+
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nature-class {
+  background-image: url("images/family3_silhouette.jpg");
+  background-size: 100%;
+  height: 250px;
+  background-repeat: no-repeat;    
+}
+#nature {
+  background-image: url("images/family3_silhouette.jpg");
+  background-size: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+#accessibility {
+  background-image: url("images/accessibility_banner2.png");
+  background-size: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+#healthy {
+  background-image: url("images/healthy.jpg");
+  background-size: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+#fitness {
+  background-image: url("images/couple_wokout.jpg");
+  background-size: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+#resources {
+  background-image: url("images/banner_healthy_lifestyle3.jpg");
+  background-size: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+caption {
+    display: table-caption;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+table,
+th,
+td {
+    border: 3px solid;
+    border-collapse: collapse;
+    border-color: darkblue;
+}
+
+table {
+    width: 80%;
+    table-layout: fixed;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+
+th {
+    height: 70px;
+    text-align: left;
+    font-size: 22px;
+}
+
+th[scope="col"] {
+    background-color: lightblue;
+}
+
+tr:nth-child(odd) {
+  background-color: #DEE3DE;
+}
+
+td {
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+    
+   /* #mobile {display: inline;}
+    #desktop {display: none;}
+}*/
